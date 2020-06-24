@@ -9,16 +9,16 @@ cache:
   - node_modules
   yarn: true
 before_install:
-- export TZ='Asia/Shanghai'  # 设置时区
+- export TZ='Asia/Beijing'  # 设置时区
 install:
 - yarn
 script:
-- yarn blog:build
+- yarn run build
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  local-dir: ./sources/.vuepress/dist/ ## 根据情况自定义到静态文件输出目录
+  github-token: travis
+  local-dir: ./dist ## 根据情况自定义到静态文件输出目录
   target-branch: gh-pages
   verbose: true
   on:
