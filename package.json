@@ -1,0 +1,22 @@
+{
+  "name": "guifan",
+  "version": "1.0.0",
+  "description": "数据科学事业部前端规范",
+  "main": "index.js",
+  "repository": "http://172.16.38.156/H5/guifan.git",
+  "author": "前端组",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "less": "^3.11.3",
+    "less-loader": "^6.1.2",
+    "style-loader": "^1.2.1",
+    "vuepress": "^1.5.2"
+  },
+  "dependencies": {
+    "markdown-it-deflist": "^2.0.3"
+  }
+}
