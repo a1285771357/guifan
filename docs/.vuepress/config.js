@@ -3,9 +3,9 @@ module.exports = {
     title: '前端规范',
     description: '数据科学事业部前端规范',
     port: 80,
-    dest: 'public',
+    dest: 'dist',
     themeConfig: {
-        repo: 'http://172.16.38.156/H5/guifan',
+        repo: 'https://github.com/a1285771357/guifan',
         docsDir: 'docs/guide',
         docsBranch: 'master',
         repoLabel: '查看源码',
