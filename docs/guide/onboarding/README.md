@@ -10,5 +10,5 @@
 9. UI图库：[蓝湖](https://lanhuhu.com/web/#/item?fid=e7022528-2263-4eda-8c09-9b6dd76f19f4&commonly=all)
 
 ::: tip
-蓝湖、图标库注册下账号，然后把账号给张庭玮 :heartpulse:
+蓝湖1、图标库注册下账号，然后把账号给张庭玮 :heartpulse:
 :::
