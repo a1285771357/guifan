@@ -6,7 +6,7 @@ module.exports = {
     dest: 'dist',
     themeConfig: {
         repo: 'https://github.com/a1285771357/guifan',
-        docsDir: 'docs/guide',
+        docsDir: 'docs',
         docsBranch: 'master',
         repoLabel: '查看源码',
         editLinks: true,
